@@ -79,7 +79,7 @@ contract MyContract {
 ## Help
 
 Common Issues in Smart Contract Development
-
+```
 Missing require statements: Ensure to add require statements for external libraries/contracts.
 assert failures: Use require instead of assert for runtime checks.
 revert not undoing changes: Call revert at the correct point in the function.
@@ -90,7 +90,7 @@ Incorrect gas calculations: Use tools like Truffle's compile command and specify
 Unintended reentrancy: Use payable and transfer functions carefully.
 Out-of-gas errors: Test thoroughly and use gas-efficient coding practices.
 Debugging issues: Use Solidity debuggers like Truffle's or Remix's.
-
+```
 ## Authors
 
 Datu Benladin Embag Jr, 
